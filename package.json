@@ -1,0 +1,23 @@
+{
+	"name": "file_metadata",
+	"version": "0.0.1",
+	"description": "API project",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+
+	},
+	"engines": {
+		"node": "7.6.0"
+	},
+	"repository": {
+		"type": "git"
+	},
+	"keywords": [
+		"node",
+		"express"
+	],
+	"license": "MIT"
+}
