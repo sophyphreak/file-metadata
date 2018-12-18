@@ -9,7 +9,6 @@ const path = require('path');
 const app = express();
 const publicPath = path.join(__dirname, '../public');
 const upload = multer({
-  //  dest: path.join(publicPath, '/upload')
 });
 
 app.use(bodyParser.urlencoded({ extended: false }));
